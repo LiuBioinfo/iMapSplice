@@ -1,0 +1,23 @@
+#
+11/07/2014
+Xinan: 
+If illegal input(not A, T, G, C or N) is found in provided Fasta file, replace it with N;
+
+
+05/02/2015
+1. support converting Beers transcriptInfo to GTF 
+
+
+05/03/2015
+1. support including strand when generating SJs from GTF
+2. support converting MPS3junc to HISATjunc
+3. support converting HISATjunc to STARjunc
+4. support converting BeersGTF to GSNAP gtf (requiring gene_id and transcript_id to generate splice sites.)
+
+
+Possible bugs:
+1.
+when do extracting SJ from GTF, transcriptID field is used to identify a transcript,
+if exonID or other staff are included, then it is very likely that 
+there is no way to identify exons from the same transcript. One way to fix that problem 
+is removing other info in that field. 

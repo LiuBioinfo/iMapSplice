@@ -1,0 +1,17 @@
+build:
+
+make geneCount 
+
+run:
+
+./geneCount 
+-G /home/xli262/chrom_Index/adSA_table/Homo_sapiens.GRCh37.75.gtf_index/globalIndex/ 
+-L /home/xli262/data/annotation/hg19/Homo_sapiens.GRCh37.75.Anno/reissuedTranscriptID_geneName_oriTranscriptName_map.txt 
+-C /home/xli262/chrom_Index/adSA_table/Homo_sapiens.GRCh37.75.gtf_index/transcriptSeq/ 
+-R /home/xli262/chrom_Index/adSA_table/hg19_noRandom_table/index_0416/ 
+-U /home/xli262/data/annotation/hg19/Homo_sapiens.GRCh37.75.Anno/output.gaf.reissuedID.gaf 
+-Y GAF -A 
+-1 <readFile_1> 
+-2 <readFile_2>
+-T <threads_num>
+-O <outputFolder>
