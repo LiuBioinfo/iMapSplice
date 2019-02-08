@@ -59,6 +59,9 @@ iMapSplice has been tested on Linux platforms with the following system settings
     ```
     ./getSNPmer-unphased <input_globalIndex_folder_path> <input_GAF_path> <input_SNPlist_path(unphased)> <output_SNPmer_folder_path> <SNPmer_length> <Sampling_num_max>
     ```     
+     
+    Note: We suggest using 201 for SNPmer_length and 5 for sampleing_num_max for human genome and other genomes in similar size. If you are working with a much smaller genome, considering using shorter SNP-mers, eg. 51-mer or 31-mer.
+    
     Note: SNP list (tab delimited, four columns):
     
     ```
