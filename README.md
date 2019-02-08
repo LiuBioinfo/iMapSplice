@@ -57,9 +57,8 @@ iMapSplice has been tested on Linux platforms with the following system settings
     Generating SNP-mers with unphased SNPs
     
     ```
-    ./getSNPmer-unphased <input_globalIndex_folder_path> <input_GAF_path> <input_SNPlist_path(unphased)> <output_SNPmer_folder_path> <SNPmer_length>
-    ```    
-       
+    ./getSNPmer-unphased <input_globalIndex_folder_path> <input_GAF_path> <input_SNPlist_path(unphased)> <output_SNPmer_folder_path> <SNPmer_length> <Sampling_num_max>
+    ```     
     Note: SNP list (tab delimited, four columns):
     
     ```
